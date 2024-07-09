@@ -16,6 +16,8 @@ jobs:
     - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
       with:
         php-version: '8.3'
+        extensions: json, dom, curl, libxml, mbstring
+        coverage: none
     - uses: actions/checkout@v4
     - name: Copy .env
       run: php -r "file_exists('.env') || copy('.env.example', '.env');"
@@ -23,6 +25,14 @@ jobs:
       run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
     - name: Generate key
       run: php artisan key:generate
+    - name: Run phpstan
+      run: ./vendor/bin/phpstan analyse app/Livewire
+    - name: Run pint
+      run: ./vendor/bin/pint
+    - name: Commit pinted files
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Fixes coding style"
     - name: Directory Permissions
       run: chmod -R 777 storage bootstrap/cache
     - name: Create Database
