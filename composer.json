@@ -25,6 +25,7 @@
         "predis/predis": "^2.2"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.13",
         "fakerphp/faker": "^1.9.1",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^6.3",
