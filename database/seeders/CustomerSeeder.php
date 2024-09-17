@@ -29,27 +29,27 @@ class CustomerSeeder extends AbstractSeeder
 
                 Address::factory()->create([
                     'shipping_default' => true,
-                    'country_id' => 235,
+                    'country_id' => 155,
                     'customer_id' => $customer->id,
                 ]);
 
                 Address::factory()->create([
                     'shipping_default' => false,
-                    'country_id' => 235,
+                    'country_id' => 155,
                     'customer_id' => $customer->id,
                 ]);
 
                 Address::factory()->create([
                     'shipping_default' => false,
                     'billing_default' => true,
-                    'country_id' => 235,
+                    'country_id' => 155,
                     'customer_id' => $customer->id,
                 ]);
 
                 Address::factory()->create([
                     'shipping_default' => false,
                     'billing_default' => false,
-                    'country_id' => 235,
+                    'country_id' => 155,
                     'customer_id' => $customer->id,
                 ]);
             }

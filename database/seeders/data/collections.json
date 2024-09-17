@@ -1,18 +1,22 @@
 [
     {
-        "name": "Shoes",
-        "description": "Collection of Shoes"
+        "name": "Brass",
+        "description": "Collection of Brass Items"
     },
     {
-        "name": "Trousers",
-        "description": "Collection of Trousers"
+        "name": "Bronze",
+        "description": "Collection of Bronze Items"
     },
     {
-        "name": "Hoodies",
-        "description": "Collection of Hoodies"
+        "name": "Copper",
+        "description": "Collection of Copper Items"
+    },
+    {
+        "name": "Stainless Steel",
+        "description": "Collection of Stainless Steel Items"
     },
     {
         "name": "Sale",
-        "description": "50% OFF Selected Items"
+        "description": "Items on Sale"
     }
 ]
