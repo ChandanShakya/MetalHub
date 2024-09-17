@@ -39,7 +39,14 @@ class ProductSeeder extends AbstractSeeder
 
         $taxClass = TaxClass::getDefault();
 
-        $currency = Currency::getDefault();
+        $currency = Currency::create([
+            'code' => 'NPR',
+            'name' => 'Nepali Rupees',
+            'exchange_rate' => 1.0000,
+            'decimal_places' => 2,
+            'enabled' => 1,
+            'default' => 1,
+        ]);
 
         $collections = Collection::get();
 
