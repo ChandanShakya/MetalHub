@@ -13,14 +13,11 @@
         },
         "brand": "None",
         "collections": [
-            "Bronze",
-            "Idols and figurines",
-            "Religious artifacts",
-            "Hindu ritual objects"
+            "Bronze"
         ],
         "sku": "SHIV-LINGA-01",
         "price": "7000",
-        "image": "Bronze/Idol/bronze_shiva_linga.jpg",
+        "image": "bronze_shiva_linga.jpg",
         "options": [
             {
                 "name": "Material",
@@ -53,14 +50,11 @@
         },
         "brand": "None",
         "collections": [
-            "Copper",
-            "Drinkware",
-            "Eco-friendly products",
-            "Wellness accessories"
+            "Copper"
         ],
         "sku": "COPPER-BOTTLE-01",
         "price": "1500",
-        "image": "Copper/Bottle/HammeredCopperBottle.jpg",
+        "image": "hammered_copper_bottle.jpg",
         "options": [
             {
                 "name": "Material",
@@ -101,12 +95,11 @@
         },
         "brand": "None",
         "collections": [
-            "Copper",
-            "Home Decor"
+            "Copper"
         ],
         "sku": "COPPER-GAGRI-01",
         "price": "8500",
-        "image": "Copper/Gagri/Gagri.jpg",
+        "image": "copper_gagri.jpg",
         "options": [
             {
                 "name": "Material",
@@ -160,14 +153,11 @@
         },
         "brand": "None",
         "collections": [
-            "Copper",
-            "Spiritual Symbols",
-            "Religious Artifacts",
-            "Home Decor"
+            "Copper"
         ],
         "sku": "COPPER-OM-01",
         "price": "1200",
-        "image": "Copper/Symbols/Om.jpg",
+        "image": "copper_om.jpg",
         "options": [
             {
                 "name": "Material",
@@ -207,14 +197,11 @@
         },
         "brand": "None",
         "collections": [
-            "Copper",
-            "Spiritual Symbols",
-            "Religious Artifacts",
-            "Home Decor"
+            "Copper"
         ],
         "sku": "COPPER-SWASTIKA-01",
         "price": "1500",
-        "image": "Copper/Symbols/Swastika.jpg",
+        "image": "copper_swastika.jpg",
         "options": [
             {
                 "name": "Material",
@@ -254,19 +241,18 @@
         },
         "brand": "None",
         "collections": [
-            "Copper",
-            "Drinkware",
-            "Dining Sets"
+            "Copper"
         ],
         "sku": "COPPER-JUG-SET-01",
         "price": "5200",
-        "image": "Copper/Set/CopperJugSet02.jpg",
+        "image": "copper_jug_set_b.jpg",
         "options": [
             {
                 "name": "Material",
                 "shared": true,
                 "values": [
-                    "Copper"
+                    "Copper",
+                    "Sale"
                 ]
             },
             {
@@ -293,13 +279,11 @@
         },
         "brand": "None",
         "collections": [
-            "Copper",
-            "Drinkware",
-            "Dining Sets"
+            "Copper"
         ],
         "sku": "METAL-HUB-COPPER-JUG-SET-01",
         "price": "6200",
-        "image": "Copper/Set/CopperJugSet2.jpg",
+        "image": "copper_jug_set_a.jpg",
         "options": [
             {
                 "name": "Material",

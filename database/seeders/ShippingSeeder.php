@@ -19,7 +19,7 @@ class ShippingSeeder extends Seeder
      */
     public function run(): void
     {
-        $currency = Currency::where('code', 'NPR')->first();
+        $currency = Currency::getDefault();
 
         $standardShipping = ShippingMethod::create([
             'name' => 'Standard Shipping',
@@ -31,33 +31,33 @@ class ShippingSeeder extends Seeder
             ]
         ]);
 
-        $npShippingZone = ShippingZone::create([
-            'name' => 'NPL',
+        $ukShippingZone = ShippingZone::create([
+            'name' => 'UK',
             'type' => 'countries',
         ]);
 
-        $npShippingRate = ShippingRate::create([
-            'shipping_zone_id' => $npShippingZone->id,
+        $ukShippingRate = ShippingRate::create([
+            'shipping_zone_id' => $ukShippingZone->id,
             'shipping_method_id' => $standardShipping->id,
             'enabled' => true,
         ]);
 
-        $npShippingZone->countries()->sync(
-            Country::where('iso3', '=', 'NPL')->first()->id,
+        $ukShippingZone->countries()->sync(
+            Country::where('iso3', '=', 'GBR')->first()->id,
         );
 
         Price::create([
             'priceable_type' => ShippingRate::class,
-            'priceable_id' => $npShippingRate->id,
+            'priceable_id' => $ukShippingRate->id,
             'price' => 1000,
             'min_quantity' => 1,
             'currency_id' => $currency->id,
         ]);
 
-        // Free shipping on R100 or over orders
+        // Free shipping on £100 or over orders
         Price::create([
             'priceable_type' => ShippingRate::class,
-            'priceable_id' => $npShippingRate->id,
+            'priceable_id' => $ukShippingRate->id,
             'price' => 0,
             'min_quantity' => 10000,
             'currency_id' => $currency->id,

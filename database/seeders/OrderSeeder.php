@@ -30,7 +30,7 @@ class OrderSeeder extends Seeder
             $users = User::get();
             $faker = Factory::create();
             $channel = Channel::getDefault();
-            $currency = Currency::where('code', 'NPR')->first();
+            $currency = Currency::getDefault();
 
             $cardTypes = ['visa', 'mastercard'];
 
@@ -69,7 +69,7 @@ class OrderSeeder extends Seeder
                                 price: new Price($tax, $currency, 1),
                                 identifier: 'VAT',
                                 description: 'VAT',
-                                percentage: 13,
+                                percentage: 20,
                             ),
                         ])),
                     ]);
@@ -115,7 +115,7 @@ class OrderSeeder extends Seeder
                 $shipping = OrderAddress::factory()->create([
                     'order_id' => $orderModel->id,
                     'type' => 'shipping',
-                    'country_id' => 155, // NP
+                    'country_id' => 235, // UK
                 ]);
 
                 if ($faker->boolean()) {
@@ -127,7 +127,7 @@ class OrderSeeder extends Seeder
                     OrderAddress::factory()->create([
                         'order_id' => $orderModel->id,
                         'type' => 'billing',
-                        'country_id' => 155, // NP
+                        'country_id' => 235, // UK
                     ]);
                 }
 
