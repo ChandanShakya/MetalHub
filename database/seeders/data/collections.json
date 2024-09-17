@@ -16,6 +16,42 @@
         "description": "Collection of Stainless Steel Items"
     },
     {
+        "name": "Idols and Figurines",
+        "description": "Collection of Idols and Figurines"
+    },
+    {
+        "name": "Religious Artifacts",
+        "description": "Collection of Religious Artifacts"
+    },
+    {
+        "name": "Hindu Ritual Objects",
+        "description": "Collection of Hindu Ritual Objects"
+    },
+    {
+        "name": "Drinkware",
+        "description": "Collection of Drinkware Items"
+    },
+    {
+        "name": "Eco-friendly Products",
+        "description": "Collection of Eco-friendly Products"
+    },
+    {
+        "name": "Wellness Accessories",
+        "description": "Collection of Wellness Accessories"
+    },
+    {
+        "name": "Home Decor",
+        "description": "Collection of Home Decor Items"
+    },
+    {
+        "name": "Spiritual Symbols",
+        "description": "Collection of Spiritual Symbols"
+    },
+    {
+        "name": "Dining Sets",
+        "description": "Collection of Dining Sets"
+    },
+    {
         "name": "Sale",
         "description": "Items on Sale"
     }
