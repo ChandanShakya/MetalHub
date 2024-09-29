@@ -7,11 +7,6 @@
                 <span class="text-indigo-600">
                     MetalHub
                 </span>
-
-                <span role="img"
-                      aria-hidden="true">
-                    👋
-                </span>
             </h1>
 
             <p class="mt-4 font-medium sm:leading-relaxed sm:text-xl">

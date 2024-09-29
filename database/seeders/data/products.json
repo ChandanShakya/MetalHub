@@ -1,303 +1,210 @@
 [
     {
         "attributes": {
-            "name": "Bronze Shiva Linga Abhishek Set",
-            "description": "This is a traditional Hindu ritual object featuring a Shiva linga with an abhishek (ritual bathing) apparatus. It's crafted from bronze and consists of a base vessel, a central linga, and a suspended pouring vessel.",
-            "details": [
-                "Circular bronze base with decorative engraved patterns",
-                "Central Shiva linga with a small sculpture, likely representing Shiva",
-                "Suspended bronze pouring vessel above the linga",
-                "Two curved bronze supports connecting the pouring vessel to the base",
-                "Designed for ritual pouring of water or other sacred liquids over the linga"
-            ]
+            "name": "Levi's® 501® Straight Fit Jeans",
+            "description": "A cultural icon worn by generations, defining style for decades. The iconic straight fit with the signature button fly. Since Levi's® invented it in 1873, people have made them their own by ripping, tearing, repairing, dying and marking them up for total "
         },
-        "brand": "None",
-        "collections": [
-            "Bronze"
-        ],
-        "sku": "SHIV-LINGA-01",
-        "price": "7000",
-        "image": "bronze_shiva_linga.jpg",
+        "collections": ["trousers", "sale"],
+        "sku": "LEV-856",
+        "price": "8599",
+        "image": "black_jeans.jpg",
+        "brand": "Levis",
         "options": [
             {
-                "name": "Material",
-                "shared": true,
+                "name": "Size",
+                "shared": false,
                 "values": [
-                    "Bronze"
-                ]
-            },
-            {
-                "name": "Weight",
-                "shared": true,
-                "values": [
-                    "2.3 kg"
+                    "30 S (L30)",
+                    "32 S (L30)",
+                    "34 S (L30)",
+                    "36 S (L30)"
                 ]
             }
         ]
     },
     {
         "attributes": {
-            "name": "Hammered Copper Bottle",
-            "description": "Stay stylish and healthy with our beautifully crafted hammered copper bottle. Perfect for hydration on the go, this bottle combines timeless design with natural benefits. Sip in style and embrace the tradition of copper.",
+            "name": "Chuck 70 Raw Edge",
+            "description": "The timeless style you know and love gets remixed with light padding and unexpected raw-edge details. An elevated style icon, it features more cushioning to keep you looking ”and feeling” good all day. The Chuck 70 holds its own on fashion week runways and city streets, making it the go-to sneaker for those looking to enhance and express their style.",
             "details": [
-                "Handcrafted with traditional craftsmanship",
-                "Stylish hammered texture for a unique look",
-                "Made from pure copper for potential health benefits",
-                "Eco-friendly alternative to plastic bottles",
-                "Leak-proof design with a secure screw-top lid",
-                "Ideal for maintaining the natural coolness of water"
+                "High-top sneaker, crafted with organic canvas for an elevated look and feel",
+                "OrthoLite cushioning for all-day comfort",
+                "Raw-cut textile inserts for added padding",
+                "Shiny rubber sidewall and winged tongue stitching",
+                "Heritage details like a 1970s heel logo nod to its legacy"
             ]
         },
-        "brand": "None",
-        "collections": [
-            "Copper"
-        ],
-        "sku": "COPPER-BOTTLE-01",
-        "price": "1500",
-        "image": "hammered_copper_bottle.jpg",
+        "brand": "Converse",
+        "collections": ["shoes", "sale"],
+        "sku": "CONV-70",
+        "price": "15000",
+        "image": "converse.jpg",
         "options": [
             {
-                "name": "Material",
+                "name": "Shoe Size",
                 "shared": true,
-                "values": [
-                    "Pure Copper"
-                ]
-            },
-            {
-                "name": "Capacity",
-                "shared": true,
-                "values": [
-                    "1 L"
-                ]
-            },
-            {
-                "name": "Weight",
-                "shared": true,
-                "values": [
-                    "300 g"
-                ]
+                "values": ["UK 5", "UK 6", "UK 7", "UK 8", "UK 9", "UK 10"]
             }
         ]
     },
     {
         "attributes": {
-            "name": "Decorative Copper Gagri (Water Vase)",
-            "description": "Elevate your home decor with our exquisite copper gagri. These traditional water vases blend timeless elegance with cultural significance, featuring intricate embossed patterns and a gleaming finish. Perfect as decorative pieces or for serving water in a sophisticated manner.",
-            "details": [
-                "Set of two matching copper gagris",
-                "Elegant vase-like shape with a wide base and narrow neck",
-                "Intricately embossed floral patterns on the upper portion",
-                "Smooth, polished surface on the lower body",
-                "Wide, flared rim for easy pouring",
-                "Handcrafted by skilled artisans",
-                "Suitable for both decorative and functional use"
-            ]
+            "name": "Air Jordan",
+            "description": "Cold, wet weather usually means it's time to put away your J's until the spring.With the Air Jordan 1 Acclimate, those days are over.Part boot, part sneaker, it uses winterized materials in a toe-to-heel overhaul that's designed to help you stay warm and dry without losing the iconic AJ1 appeal."
         },
-        "brand": "None",
-        "collections": [
-            "Copper"
-        ],
-        "sku": "COPPER-GAGRI-01",
-        "price": "8500",
-        "image": "copper_gagri.jpg",
+        "brand": "Nike",
+        "collections": ["shoes"],
+        "sku": "AIRJ-70",
+        "price": "18599",
+        "image": "nike_hightop.jpg",
         "options": [
             {
-                "name": "Material",
+                "name": "Shoe Size",
                 "shared": true,
-                "values": [
-                    "Copper"
-                ]
-            },
-            {
-                "name": "Quantity",
-                "shared": true,
-                "values": [
-                    "Set of 2"
-                ]
-            },
-            {
-                "name": "Approximate Height",
-                "shared": true,
-                "values": [
-                    "45 cm"
-                ]
-            },
-            {
-                "name": "Approximate Weight pax",
-                "shared": true,
-                "values": [
-                    "1.5 kg"
-                ]
-            },
-            {
-                "name": "Approximate Capacity",
-                "shared": true,
-                "values": [
-                    "10 L"
-                ]
+                "values": ["UK 5", "UK 6", "UK 7", "UK 8", "UK 9", "UK 10"]
             }
         ]
     },
     {
         "attributes": {
-            "name": "Copper Om Symbol",
-            "description": "Embrace spiritual symbolism with our elegant copper Om pendant. This sacred Hindu symbol represents the essence of the universe, making it a meaningful piece for meditation, yoga practice, or as a spiritual ornament.",
-            "details": [
-                "Crafted from high-quality copper",
-                "Intricate Om (ॐ) design",
-                "Polished finish for a gleaming appearance",
-                "Includes a small loop for easy hanging",
-                "Perfect for personal use or as a thoughtful gift",
-                "Suitable for various spiritual practices and home decor"
-            ]
+            "name": "WORKER 20.5\" - CHINO SHORTS FOR MEN",
+            "description": "Our mens Original 20 joggers are a basic staple. Featuring everything you need from the perfect pair of relaxed trousers; draw cord and elasticated waist, elasticated cuffs for comfort fit, side and back pockets with a popper fastening and Saltrock branding. With a super soft, peach fluff finished inside for warmth and comfort."
         },
-        "brand": "None",
-        "collections": [
-            "Copper"
-        ],
-        "sku": "COPPER-OM-01",
-        "price": "1200",
-        "image": "copper_om.jpg",
+        "brand": "Saltrock",
+        "collections": ["trousers"],
+        "sku": "SLTRCK-70",
+        "price": "2500",
+        "image": "beige_trousers.jpg"
+    },
+    {
+        "attributes": {
+            "name": "Nike Sportswear Tech Fleece",
+            "description": "Ready for cooler weather, the Nike Sportswear Tech Fleece Joggers feature an updated fit perfect for everyday wear. Roomy through the thigh, this tapered design narrows at the knee to give you a comfortable feel without losing the clean, tailored look you love. Tall ribbed cuffs complete the jogger look while a zipped pocket on the right leg provides secure small-item storage and elevates the look."
+        },
+        "brand": "Nike",
+        "collections": ["trousers", "sale"],
+        "sku": "CU4495-410",
+        "price": "7995",
+        "image": "green_trousers.jpg"
+    },
+    {
+        "attributes": {
+            "name": "NICCE Mens Original Hood",
+            "description": "Original overhead hood featuring a white chest logo, with a drawstring hood, pouch pocket and cuffed sleeves and hem. A simple and easy piece, great to layer and throw on with jeans or joggers."
+        },
+        "brand": "NICCE",
+        "collections": ["hoodies", "sale"],
+        "sku": "NICCE-50",
+        "price": "5000",
+        "image": "nicce_hoodie.jpg"
+    },
+    {
+        "attributes": {
+            "name": "Nike Pegasus Trail 3",
+            "description": "Find your wings with an off-road run. The Nike Pegasus Trail 3 has the same cushioned comfort you love, with a design that nods to the classic Pegasus look. It's got tough traction to help you stay moving through rocky terrain. More support around the midfoot helps you feel secure on your journey."
+        },
+        "brand": "Nike",
+        "collections": ["shoes"],
+        "sku": "DA8698-001",
+        "price": "11495",
+        "image": "nike_black.jpg",
         "options": [
             {
-                "name": "Material",
+                "name": "Shoe Size",
                 "shared": true,
-                "values": [
-                    "Copper"
-                ]
-            },
-            {
-                "name": "Approximate Size",
-                "shared": true,
-                "values": [
-                    "10 cm x 10 cm"
-                ]
-            },
-            {
-                "name": "Weight",
-                "shared": true,
-                "values": [
-                    "100 g"
-                ]
+                "values": ["UK 5", "UK 6", "UK 7", "UK 8", "UK 9", "UK 10"]
             }
         ]
     },
     {
         "attributes": {
-            "name": "Copper Swastika Symbol with Ganesh Face",
-            "description": "Discover the auspicious blend of symbolism with our copper Swastika featuring Ganesh. This Hindu symbol of good fortune and prosperity, combined with the beloved deity Ganesh, creates a powerful talisman for positivity and success.",
-            "details": [
-                "Made from durable copper",
-                "Features a Swastika design with Ganesh face at the center",
-                "Brushed copper finish for an antique look",
-                "Hanging loop for versatile display",
-                "Combines two significant Hindu symbols",
-                "Ideal for spiritual practices or as a decorative piece"
-            ]
+            "name": "Men's Full-Zip Fleece Hoodie",
+            "description": "Made in Milan, Italy with thoughtful consideration of every last detail, this full-zip hoodie is designed for lightweight warmth and 360 degrees of comfort. A buttery-soft blend of cotton, cashmere and elastane lies flat on your skin for a smooth feel."
         },
-        "brand": "None",
-        "collections": [
-            "Copper"
-        ],
-        "sku": "COPPER-SWASTIKA-01",
-        "price": "1500",
-        "image": "copper_swastika.jpg",
+        "brand": "Nike",
+        "collections": ["hoodies"],
+        "sku": "NIKE-FOO-50",
+        "price": "8000",
+        "image": "nike_hoodie_blue.jpg"
+    },
+    {
+        "attributes": {
+            "name": "Nike Red Hoodie",
+            "description": "This Hoodie outfits you in cosy comfort that's easy to layer. It's made from soft, warm fleece with an oversized chest graphic to make it clear who you're repping."
+        },
+        "brand": "Nike",
+        "collections": ["hoodies"],
+        "sku": "DH9320-657",
+        "price": "5495",
+        "image": "nike_hoodie_red.jpg"
+    },
+    {
+        "attributes": {
+            "name": "Nike Metcon 7",
+            "description": "The Nike Metcon 7 is the gold standard for weight training—even tougher and more stable than previous versions.We've also added React foam that ups the comfort to keep you ready for high-intensity cardio.Plus, a tab locks down your laces so you can forget about them coming untied when you're focused on your next PR."
+        },
+        "brand": "Nike",
+        "collections": ["shoes", "sale"],
+        "sku": "CZ8281-234",
+        "price": "11495",
+        "image": "nike_orange_white.jpg",
         "options": [
             {
-                "name": "Material",
+                "name": "Shoe Size",
                 "shared": true,
-                "values": [
-                    "Copper"
-                ]
-            },
-            {
-                "name": "Approximate Size",
-                "shared": true,
-                "values": [
-                    "12 cm x 12 cm"
-                ]
-            },
-            {
-                "name": "Weight",
-                "shared": true,
-                "values": [
-                    "120 g"
-                ]
+                "values": ["UK 5", "UK 6", "UK 7", "UK 8", "UK 9", "UK 10"]
             }
         ]
     },
     {
         "attributes": {
-            "name": "Copper Jug Set with 6 Cups",
-            "description": "Elevate your dining experience with this exquisite copper jug set. Featuring one beautifully crafted copper jugs and six brass-colored cups, this set combines functionality with timeless elegance.",
-            "details": [
-                "Set includes one copper jugs and six brass-colored cups",
-                "Jugs feature a tall, slender design with hammered texture",
-                "Cups have a tapered shape with intricate engraved patterns",
-                "Jugs come with lids and convenient pouring spouts",
-                "Perfect for serving water, juice, or traditional beverages",
-                "Ideal for both everyday use and special occasions"
-            ]
+            "name": "Nike Air Huarache",
+            "description": "Built to fit your foot and designed for comfort, the Nike Air Huarache brings back a street-level favourite. Updated with sleek colours, this version has soft, synthetic leather accents on the upper that mix with super-breathable, perfectly shined neoprene-like fabric for easy styling."
         },
-        "brand": "None",
-        "collections": [
-            "Copper"
-        ],
-        "sku": "COPPER-JUG-SET-01",
-        "price": "5200",
-        "image": "copper_jug_set_b.jpg",
+        "brand": "Nike",
+        "collections": ["shoes"],
+        "sku": "DR0141-001",
+        "price": "11495",
+        "image": "nike_shoe_1.jpg",
         "options": [
             {
-                "name": "Material",
+                "name": "Shoe Size",
                 "shared": true,
-                "values": [
-                    "Copper",
-                    "Sale"
-                ]
-            },
-            {
-                "name": "Set Contents",
-                "shared": true,
-                "values": [
-                    "1 jug, 6 cups"
-                ]
+                "values": ["UK 5", "UK 6", "UK 7", "UK 8", "UK 9", "UK 10"]
             }
         ]
     },
     {
         "attributes": {
-            "name": "Copper Jug Set with 6 Cups",
-            "description": "Introduce a touch of traditional elegance to your home with this METAL HUB copper jug set. Featuring a beautifully hammered copper jug and six brass-colored cups, this set is perfect for serving beverages in style.",
-            "details": [
-                "Set includes one copper jug and six brass-colored cups",
-                "Jug features a curved design with hammered texture",
-                "Cups have a straight-sided shape with engraved patterns",
-                "Jug comes with a lid and convenient pouring spout",
-                "Ideal for serving water, juice, or traditional beverages",
-                "Suitable for both everyday use and special occasions"
-            ]
+            "name": "Women's Woven Tennis Trousers",
+            "description": "Made with multiple oversized pockets, the Naomi Osaka Trousers are a wardrobe staple with plenty of storage.Signature Naomi Osaka details, like her logo on the left pocket, put a premium spin on any outfit."
         },
-        "brand": "None",
-        "collections": [
-            "Copper"
-        ],
-        "sku": "METAL-HUB-COPPER-JUG-SET-01",
-        "price": "6200",
-        "image": "copper_jug_set_a.jpg",
+        "brand": "Nike",
+        "collections": ["sale"],
+        "sku": "DJ4661-010",
+        "price": "9995",
+        "image": "nike_trousers.jpg"
+    },
+    {
+        "attributes": {
+            "name": "Classic Hooded Sweat",
+            "description": "Double fabric hood"
+        },
+        "collections": ["hoodies"],
+        "sku": "HOOD-123",
+        "price": "1099",
+        "image": "tshirt.jpg",
+        "brand": "Fruit of the loom",
         "options": [
             {
-                "name": "Material",
+                "name": "Colour",
                 "shared": true,
-                "values": [
-                    "Copper"
-                ]
+                "values": ["Black", "Blue", "Red", "Green"]
             },
             {
-                "name": "Set Contents",
+                "name": "Size",
                 "shared": true,
-                "values": [
-                    "1 jug, 6 cups"
-                ]
+                "values": ["Small", "Medium", "Large", "X-Large"]
             }
         ]
     }

@@ -17,7 +17,7 @@
         rel="stylesheet"
     >
     <link
-        rel="icon" type="image/svg+xml"
+        rel="icon"
         href="{{ asset('favicon.svg') }}"
     >
     @livewireStyles
