@@ -19,6 +19,12 @@
                         {{ $collection->translateAttribute('name') }}
                     </a>
                 @endforeach
+                <a class="text-sm font-medium transition hover:opacity-75"
+                       href="{{ route('top-products.view') }}"
+                       wire:navigate
+                    >
+                    Top Products
+                </a>
             </nav>
         </div>
 
